@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="pes.css">
+<script type="text/javascript" src="encrip.js"></script>
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Encriptt</title> 
+
+ <a href="https://github.com/Hoxwolff"> <img src="img1.png" title="Mi git aquí!"> </a>
+
+<br>
+
+</head>
+
+<body>
+
+<p >Encriptación y desencriptación one</p>
+
+
+<form  action="testEnviar" name="formName" onsubmit="return Validate()">
+
+<label class="info">Solo minusculas sin tildes.</label>
+
+<textarea class="encriptar" title="Texto que desea encriptar" placeholder="Escriba aqui" class="inputTextoUno" id="inputTextoUno" name="encR" type="text" onKeyUp="document.getElementById(this.id).value=document.getElementById(this.id).value.toLowerCase()" required></textarea>
+
+
+<button type="button" class="btnEncrip" id="btnEncriptar" title="Encripta el texto ingresado" onclick="encriptarTexto()"> Encriptar </button>
+
+</form>
+
+<br>
+
+<button type="button" class="btnDes" id="btnDesencriptar" title="Desencripta el texto" onclick="desencriptarTexto()">Desencriptar</button>
+
+<br>
+
+<button type="button" class="btnLimp" id="btnLimpiar" title="Limpiar Texto" onclick="limpiarTexto()
+">Limpiar</button>
+
+<br>
+
+
+<rect/><br><br><textarea  class="txtEdd" id="txtED" rows="20" readonly placeholder="Aquí ira la respuesta
+
+Ejemplo del texto: 
+
+''Lorem ipsum dolor sit amet, consectetur adipiscing elit. Orci montes, sit et diam risus scelerisque vitae est. Tortor maecenas nunc ut laoreet. Eget diam mauris quam quisque ut eget fringilla sit elit. Libero, sodales duis fames id diam feugiat aliquet non egestas.'' " ></textarea> 
+
+<button type="button" class="btnCopiar" id="btnCopiar" title="Copia el texto" onclick="copiarTexto()">Copiar</button>
+
+
+
+</body>
+
+

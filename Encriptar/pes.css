@@ -1,0 +1,219 @@
+
+img
+{
+
+position: absolute;
+width: 150px;
+height: 150px;
+left: 40px;
+top: 40px;
+border-radius: 15px;
+
+}
+
+body
+{
+
+background: lightslategray;
+
+}
+
+p
+{
+
+position: absolute;
+width: 577px;
+height: 48px;
+left: 520px;
+top: 168px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+color: #0A3871;
+
+}
+
+rect
+{
+	/* Rectangle 1 */
+
+
+position: absolute;
+width: 400px;
+height: 904px;
+left: 1350px;
+top: 5px;
+background: #FFFFFF;
+border-radius: 38px;
+}
+
+
+button {
+    
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btnEncrip
+{
+     
+    color: #eeeeee; 
+    gap: 24px; 
+    position:absolute;
+    width: 180px; 
+    height: 57px; 
+    left: 412px;
+    top: 705px; 
+    background: #0A3871;
+    border-radius: 24px;
+}
+
+.btnLimp
+{
+   
+    padding: 15px;
+    gap: 24px;
+    color: #eeeeee;
+    position:absolute;
+    width: 180px;
+    height: 57px;
+    left: 638px;
+    top: 705px;
+    background: #0A3871; 
+    border-radius: 24px; 
+}
+
+.btnDes
+{
+    
+    width: 100%;
+    padding: 15px;
+    gap: 24px;
+    color: #eeeeee;
+    position:absolute;
+    width: 180px;
+    height: 57px;
+    left: 870px;
+    top: 705px;
+    background: #0A3871; 
+    border-radius: 24px 
+}
+
+
+
+.btnCopiar
+{
+   
+    padding: 15px;
+    gap: 24px;
+    color: #eeeeee;
+    position:absolute;
+    width: 180px;
+    height: 57px;
+    left: 130px;
+    top: 770px;
+    background: #0A3871; 
+    border-radius: 24px;
+}
+
+.encriptar
+{
+    text-align: center;
+    flex-basis: 100%;
+    max-width: 100%;
+    position:absolute;
+    width: 620px;
+    height: 190px;
+    left: 420px;
+    top: 480px;
+    resize: none;
+    border-radius: 15px;
+}
+
+.txtEdd
+{
+ resize: none;
+ margin-left: 11px; 
+ width: 375px; 
+ height: 375px;
+}
+
+.info
+{
+    position: absolute;
+    left: 644px;
+    top: 445px;
+    font-family: 'Inter';
+    font-size: 20px;
+}
+
+@media screen and (max-width: 820px)
+{
+ 
+ body
+ {
+    max-width: 90%;
+ }
+
+ .img
+ {
+    max-width: 100%;
+ }   
+
+.rect
+{
+    max-width: 100%;
+    padding: 5rem;
+}
+
+.txtED
+{
+    max-width: 99%;
+    padding: 1rem;
+}
+
+button {
+        width: 300px;
+        height: 60px;
+    }
+
+
+.btnEncrip
+{
+    max-width: 99%;
+    padding: 2rem 1.3rem;
+}
+
+.btnDes
+{
+    max-width: 99%;
+    padding: 2rem 1.3rem;
+    
+}
+
+.btnLimp
+{
+   
+    max-width: 99%;
+    padding: 2rem 1.3rem;
+}
+
+.btnCopiar
+{
+   max-width: 99%;
+   padding: 2rem 1.3rem;
+}
+
+.encriptar
+{
+    padding: 1rem;
+}
+
+p{
+    max-width: 90%;
+}
+
+}
